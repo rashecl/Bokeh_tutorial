@@ -7,9 +7,9 @@ I used bokeh to create my Insight data science project - [a web-app to predict b
 
 
 ## Installation
-
+<b> Note, latest version of bokeh has a bug that doesn't allow you to run visualizations in notebooks. </b>
 ``` console
-$ pip install bokeh
+$ conda install bokeh=2.0
 ```
 If you're using jupyterlab as opposed to jupyter notebook, you will need to install this extension.
 ``` console
@@ -26,7 +26,7 @@ $ jupyter labextension install @bokeh/jupyter_bokeh
 During development, you want to be able to debug to see what happennig on the backend and printed statements that you've coded in. This is done using the `--log-level=debug` flag.
   
 ``` console
-$ bokeh serve --show --log-level=debug iris_bokeh.py
+$ bokeh serve --show --log-level=debug sliders.py
 ```
 
 * In AWS (development mode)
@@ -36,7 +36,7 @@ In AWS, you want to allow for connections to your app through the web, which is 
 To run the app in AWS, navigate to your bokeh app python script and run something like this:
 
 ``` console 
-$ bokeh serve --show --log-level=debug iris_bokeh.py --port 5000\
+$ bokeh serve --show --log-level=debug sliders.py --port 5000\
 --allow-websocket-origin=44.233.227.189:5000 \
 --allow-websocket-origin=ec2-44-233-227-189.us-west-2.compute.amazonaws.com \
 --allow-websocket-origin=predict.rocks \
@@ -54,7 +54,7 @@ If you want the app not to hangup (after you've disconnected from your instance)
 
 
 ``` console 
-$ nohup bokeh serve --show --log-level=debug iris_bokeh.py --port 5000\
+$ nohup bokeh serve --show --log-level=debug sliders.py --port 5000\
 --allow-websocket-origin=44.233.227.189:5000 \
 --allow-websocket-origin=ec2-44-233-227-189.us-west-2.compute.amazonaws.com \
 --allow-websocket-origin=predict.rocks \
