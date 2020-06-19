@@ -1,6 +1,6 @@
 # Bokeh_tutorial
 
-[Check out the slides for this tutorial]('prod/prod.slides.html')
+[Check out the slides for this tutorial](prod/prod.slides.html)
 This overview covers the basics of creating interactive bokeh visualizations in a jupyter notebook/lab and how to serve a bokeh app locally. If you're starting off, check out [this simple app](https://demo.bokeh.org/sliders) and it's [source code](https://github.com/bokeh/bokeh/blob/master/examples/app/sliders.py) to understand the basic logic. 
 Bokeh has a great [tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) for making interactive visualizations for different purposes!  
 
