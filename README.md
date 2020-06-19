@@ -10,7 +10,7 @@ I used bokeh to create my Insight data science project - [a web-app to predict b
 
 
 ## Installation
-<b> Note, latest version of bokeh has a bug that doesn't allow you to run visualizations in notebooks. </b>
+<b> Note: The latest version (as of 06-15-20) of bokeh has a bug that doesn't allow you to run visualizations in notebooks. Therefore, I recommend explicitly installing an older version for now: </b>
 ``` console
 $ conda install bokeh=2.0
 ```
@@ -25,17 +25,17 @@ $ jupyter labextension install @bokeh/jupyter_bokeh
 
 ## Serving bokeh apps
 
-* Locally 
-During development, you want to be able to debug to see what happennig on the backend and printed statements that you've coded in. This is done using the `--log-level=debug` flag.
+* Locally <br> 
+During development, you want to be able to debug to see what's happennig on the backend and printed statements that you've coded in. This is done using the `--log-level=debug` flag:
   
 ``` console
 $ bokeh serve --show --log-level=debug sliders.py
 ```
 
-* In AWS (development mode)
-First, you will have to setup an AWS EC2 instance. You can also link the app to a domain name that you purchased (optional). These steps are beyond the scope of this tutorial, but you can find an excellent tutorial [here](https://docs.google.com/presentation/d/1Z18wadUskWYdW2iOaX3rypoO1HftaOS-mHw2qHr_sSs/edit?usp=sharing).
+* In AWS (development mode) <br>
+First, you will have to setup an AWS EC2 instance. You can also link the app to a domain name that you've purchased (optional). These steps are beyond the scope of this tutorial, but you can find an excellent tutorial [here](https://docs.google.com/presentation/d/1Z18wadUskWYdW2iOaX3rypoO1HftaOS-mHw2qHr_sSs/edit?usp=sharing).
 
-In AWS, you want to allow for connections to your app through the web, which is done using `--allow-websocket-origin` flags.
+In AWS, you'll want to allow for connections to your app through the web, which is done using `--allow-websocket-origin` flags.
 To run the app in AWS, navigate to your bokeh app python script and run something like this:
 
 ``` console 
@@ -65,3 +65,4 @@ $ nohup bokeh serve --show --log-level=debug sliders.py --port 5000\
 --keep-alive 10000/
 ```
 
+If you're using Nginx (an HTTP and reverse-proxying server), you'll also want to follow the configuration instructions found [here](https://docs.bokeh.org/en/latest/docs/user_guide/server.html#nginx).
