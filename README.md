@@ -2,9 +2,7 @@
 
 [Check out the slides for this tutorial](https://rashecl.github.io/Bokeh_tutorial/prod/prod.slides.html#/)
 <br>
-This overview covers the basics of creating interactive bokeh visualizations in a jupyter notebook/lab and how to serve a bokeh app locally. If you're starting off, check out [this simple app](https://demo.bokeh.org/sliders) and it's [source code](https://github.com/bokeh/bokeh/blob/master/examples/app/sliders.py) to understand the basic logic. 
-Bokeh has a great [tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) for making interactive visualizations for different purposes!  
-
+This overview covers the basics of creating interactive bokeh visualizations in a jupyter notebook/lab and how to serve a bokeh app locally. `./prod/prod.ipynb` contains the main tutorial notebook. <br>
 
 I used bokeh to create my Insight data science project - [a web-app to predict blood test results](http://healthforecaster.xyz/HF). I also created a [COVID-19 tracking dashboard](predict.rocks).
 
@@ -20,8 +18,13 @@ $ jupyter labextension install @bokeh/jupyter_bokeh
 ```
 
 ## Basic plotting syntax
+See the slides associated with this repo. <br>
 
----- Need to update this section later ---
+Bokeh has a great [tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) that covers the basic syntax for bokeh plots.
+
+## Creating bokeh visualizations for servers
+You can get more complicated, but bokeh allows you to create a visualization in a single script file. 
+If you're starting off, check out [sliders.py](https://demo.bokeh.org/sliders) and it's [source code](https://github.com/bokeh/bokeh/blob/master/examples/app/sliders.py) to understand the basic logic. 
 
 ## Serving bokeh apps
 
