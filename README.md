@@ -18,12 +18,12 @@ $ jupyter labextension install @bokeh/jupyter_bokeh
 ```
 
 ## Basic plotting syntax
-See the slides associated with this repo. <br>
+See the [slides](https://rashecl.github.io/Bokeh_tutorial/prod/prod.slides.html#/) associated with this repo. <br>
 
 Bokeh has a great [tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) that covers the basic syntax for bokeh plots.
 
 ## Creating bokeh visualizations for servers
-You can get more complicated, but bokeh allows you to create a visualization in a single script file. 
+You can get more complicated, but bokeh allows you to create an interactive visualization with widgets using a single script file. 
 If you're starting off, check out [sliders.py](https://demo.bokeh.org/sliders) and it's [source code](https://github.com/bokeh/bokeh/blob/master/examples/app/sliders.py) to understand the basic logic. 
 
 ## Serving bokeh apps
