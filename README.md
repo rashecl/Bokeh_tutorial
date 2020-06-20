@@ -34,7 +34,7 @@ t = np.arange(10)
 fig.scatter(t, 9.8*t)
 show(fig)
 ```
-![basic plot](/figs/basic_syntax_1.html)
+![basic plot](/figs/basic_syntax_1.png)
 
 I highly advise using ColumnDataSource for the data source for your bokeh visualizations to take full advantage of the figure tools. ColumnDataSource takes a simple dictionary or pandas DataFrame argument:
 ``` python 
