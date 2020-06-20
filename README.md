@@ -22,6 +22,40 @@ See the [slides](https://rashecl.github.io/Bokeh_tutorial/prod/prod.slides.html#
 
 Bokeh has a great [tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) that covers the basic syntax for bokeh plots.
 
+``` python
+import numpy as np
+from bokeh.plotting import figure
+from bokeh.io import show, output_notebook
+output_notebook() # All subsequent outputs go to notebook
+fig = figure(plot_width=350, plot_height=250,
+             title='Speed vs. time',
+             y_axis_label='speed (m/s)', x_axis_label='time (s)')
+t = np.arange(10)
+fig.scatter(t, 9.8*t)
+show(fig)
+```
+![basic plot](/figs/basic_syntax_1.html)
+
+I highly advise using ColumnDataSource for the data source for your bokeh visualizations to take full advantage of the figure tools. ColumnDataSource takes a simple dictionary or pandas DataFrame argument:
+``` python 
+from bokeh.models import ColumnDataSource
+from bokeh.layouts import Row 
+t = np.arange(10)
+CDS = ColumnDataSource({'time':t,'speed':9.8*t,'dist':4.9*t**2})
+left = figure(plot_width=350, plot_height=250,
+              tools='lasso_select',
+              title='Speed vs. time',
+              y_axis_label='speed (m/s)', x_axis_label='time (s)')
+right = figure(plot_width=350, plot_height=250,
+              tools='lasso_select',
+              title='Speed vs. time',
+              y_axis_label='distance (m)', x_axis_label='time (s)')
+
+left.scatter('time', 'speed', source=CDS)
+right.scatter('time', 'dist', source=CDS)
+show(Row(left,right))
+```
+![linked plot](/figs/basic_syntax_2.png)
 ## Creating bokeh visualizations for servers
 You can get more complicated, but bokeh allows you to create an interactive visualization with widgets using a single script file. 
 If you're starting off, check out [sliders.py](https://demo.bokeh.org/sliders) and it's [source code](https://github.com/bokeh/bokeh/blob/master/examples/app/sliders.py) to understand the basic logic. 
