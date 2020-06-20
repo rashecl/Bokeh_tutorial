@@ -69,7 +69,7 @@ PyYAML==5.3.1
 pyzmq==19.0.1
 qtconsole==4.7.4
 QtPy==1.9.0
-requests==2.12.5
+requests==2.20.0
 scikit-learn==0.22.1
 scipy==1.4.1
 selenium==3.141.0
