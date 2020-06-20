@@ -1,0 +1,89 @@
+appnope==0.1.0
+attrs==19.3.0
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
+bokeh==2.0.0
+brotlipy==0.7.0
+certifi==2020.4.5.2
+cffi==1.14.0
+colorcet==2.0.2
+cryptography==2.9.2
+cycler==0.10.0
+decorator==4.4.2
+defusedxml==0.6.0
+entrypoints==0.3
+holoviews==1.13.2
+hvplot==0.6.0
+idna==2.9
+importlib-metadata @ file:///Users/runner/miniforge3/conda-bld/importlib-metadata_1591451757604/work
+ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1590020220241/work/dist/ipykernel-5.3.0-py3-none-any.whl
+ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1590796917427/work
+ipython-genutils==0.2.0
+ipywidgets==7.5.1
+jedi==0.17.0
+Jinja2==2.11.2
+joblib==0.15.1
+json5==0.9.5
+jsonschema==3.2.0
+jupyter==1.0.0
+jupyter-client==6.1.3
+jupyter-console==6.1.0
+jupyter-core==4.6.3
+jupyterlab==2.1.4
+jupyterlab-server==1.1.5
+kiwisolver==1.2.0
+Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1589366472132/work
+MarkupSafe==1.1.1
+matplotlib==3.2.2
+mistune==0.8.4
+nbconvert==5.6.1
+nbformat==5.0.6
+networkx==2.4
+notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1588887236241/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1591485227435/work
+olefile==0.46
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandas==1.0.4
+pandocfilters==1.4.2
+panel==0.9.5
+param==1.9.3
+parso==0.7.0
+patsy==0.5.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==7.1.2
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
+prompt-toolkit==3.0.5
+ptyprocess==0.6.0
+pycparser==2.20
+pyct==0.4.6
+Pygments==2.6.1
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+pyrsistent==0.16.0
+PySocks==1.7.1
+python-dateutil==2.8.1
+pytz==2020.1
+pyviz-comms @ file:///home/conda/feedstock_root/build_artifacts/pyviz_comms_1591750227238/work
+PyYAML==5.3.1
+pyzmq==19.0.1
+qtconsole==4.7.4
+QtPy==1.9.0
+requests==2.12.5
+scikit-learn==0.22.1
+scipy==1.4.1
+selenium==3.141.0
+Send2Trash==1.5.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+terminado==0.8.3
+testpath==0.4.4
+tornado==6.0.4
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1591181521996/work
+traitlets==4.3.3
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1588470653596/work
+urllib3==1.25.9
+version-information==1.0.3
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1591600393557/work
+webencodings==0.5.1
+widgetsnbextension==3.5.1
+zipp==3.1.0
