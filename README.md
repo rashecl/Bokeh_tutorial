@@ -1,4 +1,4 @@
-# Bokeh_tutorial
+# [Bokeh_tutorial](https://rashecl.github.io/Bokeh_tutorial/)
 
 [Check out the slides for this tutorial](https://rashecl.github.io/Bokeh_tutorial/prod/bokeh_tutorial.slides.html#/)
 <br>
