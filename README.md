@@ -1,8 +1,8 @@
-# Bokeh_tutorial
+# [Bokeh_tutorial](https://rashecl.github.io/Bokeh_tutorial/)
 
-[Check out the slides for this tutorial](https://rashecl.github.io/Bokeh_tutorial/prod/prod.slides.html#/)
+[Check out the slides for this tutorial](https://rashecl.github.io/Bokeh_tutorial/prod/bokeh_tutorial.slides.html#/)
 <br>
-This overview covers the basics of creating interactive bokeh visualizations in a jupyter notebook/lab and how to serve a bokeh app locally. `./prod/prod.ipynb` contains the main tutorial notebook. <br>
+This overview covers the basics of creating interactive bokeh visualizations in a jupyter notebook/lab and how to serve a bokeh app locally. `./prod/bokeh_tutorial.ipynb` contains the main tutorial notebook. For convenience, you can open it in [google colab](https://colab.research.google.com/github/rashecl/Bokeh_tutorial/blob/master/prod/bokeh_tutorial.ipynb).<br>
 
 I used bokeh to create my Insight data science project - [a web-app to predict blood test results](http://healthforecaster.xyz/HF). I also created a [COVID-19 tracking dashboard](predict.rocks).
 
