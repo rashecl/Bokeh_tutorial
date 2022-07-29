@@ -35,7 +35,7 @@ kiwisolver==1.2.0
 Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1589366472132/work
 MarkupSafe==1.1.1
 matplotlib==3.2.2
-mistune==0.8.4
+mistune==2.0.3
 nbconvert==5.6.1
 nbformat==5.0.6
 networkx==2.4
