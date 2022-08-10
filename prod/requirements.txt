@@ -36,7 +36,7 @@ Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1589366472
 MarkupSafe==1.1.1
 matplotlib==3.2.2
 mistune==0.8.4
-nbconvert==5.6.1
+nbconvert==6.3.0
 nbformat==5.0.6
 networkx==2.4
 notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1588887236241/work
